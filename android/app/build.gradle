@@ -112,6 +112,18 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+
+    flavorDimensions "env"
+    productFlavors {
+        internal {
+            dimension "env"
+            applicationId 'com.rntemplate'
+        }
+        development {
+            dimension "env"
+            applicationId 'com.rntemplate.dev'
+        }
+    }
 }
 
 // Apply static values from `gradle.properties` to the `android.packagingOptions`
