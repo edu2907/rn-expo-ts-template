@@ -115,9 +115,9 @@ android {
 
     flavorDimensions "env"
     productFlavors {
-        internal {
+        preview {
             dimension "env"
-            applicationId 'com.rntemplate'
+            applicationId 'com.rntemplate.prv'
         }
         development {
             dimension "env"
