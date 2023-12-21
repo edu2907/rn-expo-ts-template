@@ -1,3 +1,9 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleSuffixes": ["", ".android", ".ios", ".native", ".web"],
+    "resolveJsonModule": true,
+  },
+  "exclude": ["node_modules", "web-build"]
 }

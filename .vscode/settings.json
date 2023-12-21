@@ -10,7 +10,7 @@
   },
   "eslint.codeActionsOnSave.mode": "all",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "never"
+    "source.fixAll.eslint": "always"
   },
   "eslint.validate": [
     "typescriptreact",
