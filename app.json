@@ -3,9 +3,7 @@
     "name": "rn-template",
     "slug": "rn-template",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "web": {
       "name": "RN Template",
       "themeColor": "#256113"

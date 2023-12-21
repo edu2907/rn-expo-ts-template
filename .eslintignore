@@ -1,0 +1,8 @@
+node_modules
+web-build
+babel.config.js
+metro.config.js
+index.js
+.vscode
+android
+ios
