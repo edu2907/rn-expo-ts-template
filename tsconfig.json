@@ -4,6 +4,10 @@
     "baseUrl": ".",
     "moduleSuffixes": ["", ".android", ".ios", ".native", ".web"],
     "resolveJsonModule": true,
+    "checkJs": true,
+    "paths": {
+      "@env": ["./src/env.js"]
+    }
   },
   "exclude": ["node_modules", "web-build"]
 }
