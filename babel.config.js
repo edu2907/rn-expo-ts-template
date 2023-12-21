@@ -10,7 +10,10 @@ module.exports = function(api) {
         {
           root: ['.'],
           alias: {
-            "@env": "./src/env.js",
+            "@env": "./src/shared/config/env.js",
+            "@ui": "./src/shared/ui",
+            "@shared": "./src/shared",
+            "@modules": "./src/modules",
           },
           extensions: [
             '.ios.ts',

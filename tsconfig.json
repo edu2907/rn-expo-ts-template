@@ -6,7 +6,10 @@
     "resolveJsonModule": true,
     "checkJs": true,
     "paths": {
-      "@env": ["./src/env.js"]
+      "@env": ["src/shared/config/env.js"],
+      "@ui/*": ["src/shared/ui/*"],
+      "@shared/*": ["src/shared/*"],
+      "@modules/*": ["src/modules/*"],
     }
   },
   "exclude": ["node_modules", "web-build"]
