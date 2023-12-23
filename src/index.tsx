@@ -1,6 +1,6 @@
-import MainPage from '@modules/main/ui/pages/MainPage'
 import React from 'react'
+import TabNavigator from './navigation/TabNavigator'
 
 export default function AppRoot() {
-  return <MainPage />
+  return <TabNavigator />
 }

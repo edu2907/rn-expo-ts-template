@@ -14,6 +14,7 @@ module.exports = function(api) {
             "@ui": "./src/shared/ui",
             "@shared": "./src/shared",
             "@modules": "./src/modules",
+            "@navigation": "./src/navigation",
           },
           extensions: [
             '.ios.ts',
