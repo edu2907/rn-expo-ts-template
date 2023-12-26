@@ -3,6 +3,7 @@ import { NavigationBar, TabBar, TabBarItem } from 'navigation-react-native'
 import { FirstTabStack } from './FirstTabStack'
 import SecondTabPage from '@modules/main/ui/pages/SecondTabPage'
 import { Platform } from 'react-native'
+import { StatusBar } from 'expo-status-bar'
 
 const TabNavigator = () => {
   return (
@@ -10,8 +11,8 @@ const TabNavigator = () => {
       <NavigationBar hidden={true} />
       <TabBar
         primary={true}
-        barTintColor={Platform.OS === 'android' ? null : 'rgb(247,247,247)'}
-        selectedTintColor={Platform.OS === 'android' ? '#1da1f2' : null}
+        barTintColor={Platform.OS === 'android' ? '' : 'rgb(247,247,247)'}
+        selectedTintColor={Platform.OS === 'android' ? '#1da1f2' : ''}
       >
         <TabBarItem title="Home">
           <FirstTabStack />
@@ -21,6 +22,7 @@ const TabNavigator = () => {
           <SecondTabPage />
         </TabBarItem>
       </TabBar>
+      <StatusBar style="auto" />
     </>
   )
 }
