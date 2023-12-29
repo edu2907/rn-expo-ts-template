@@ -38,5 +38,6 @@ module.exports = {
     'prettier/prettier': 'warn',
     '@typescript-eslint/no-unused-vars': 'off',
     'linebreak-style': ['error', 'unix'],
+    '@typescript-eslint/no-var-requires': 'off',
   },
 }

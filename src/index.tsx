@@ -1,11 +1,11 @@
 import React from 'react'
-import TabNavigator from './navigation/TabNavigator'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { StackNavigator } from '@navigation/StackNavigator'
 
 export default function AppRoot() {
   return (
     <SafeAreaProvider>
-      <TabNavigator />
+      <StackNavigator />
     </SafeAreaProvider>
   )
 }

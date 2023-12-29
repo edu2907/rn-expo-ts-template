@@ -1,5 +1,6 @@
 import { View, StyleSheet } from 'react-native'
 import React from 'react'
+import colors from '@ui/theme/colors'
 
 const MainLayout: React.FC<{ children: JSX.Element }> = function ({
   children,
@@ -10,7 +11,7 @@ const MainLayout: React.FC<{ children: JSX.Element }> = function ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: colors.background,
     alignItems: 'center',
     justifyContent: 'center',
   },

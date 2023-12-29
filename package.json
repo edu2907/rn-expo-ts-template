@@ -1,5 +1,5 @@
 {
-  "name": "rn-template",
+  "name": "rntemplate",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
     "expo-constants": "~14.4.2",
     "expo-dev-client": "~2.4.12",
     "expo-splash-screen": "~0.20.5",
-    "expo-status-bar": "~1.6.0",
     "navigation": "^6.2.0",
     "navigation-react": "^4.5.1",
     "navigation-react-native": "^9.11.0",

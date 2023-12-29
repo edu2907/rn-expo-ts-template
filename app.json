@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "rn-template",
-    "slug": "rn-template",
+    "name": "rntemplate",
+    "slug": "rntemplate",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
     "web": {
-      "name": "RN Template",
+      "name": "rntemplate",
       "themeColor": "#256113"
     }
   }

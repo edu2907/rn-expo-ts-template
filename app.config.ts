@@ -4,8 +4,8 @@ import { ClientEnv, Env } from './env'
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: 'rn-template',
-  slug: 'rn-template',
+  name: 'rntemplate',
+  slug: 'rntemplate',
   extra: {
     ...ClientEnv,
   },

@@ -1,14 +1,20 @@
 import navigatorKeys from '@navigation/helpers/NavigatorKeys'
 import { useNavigator } from '@shared/hooks'
+import { GestureResponderEvent } from 'react-native'
 
 const useMainNavigatorController = () => {
   const navigator = useNavigator()
 
-  const navigateToSecondScreen = () => {
+  const navigate = (e: GestureResponderEvent) => {
+    e.preventDefault()
     navigator.navigate(navigatorKeys.Second.key)
   }
 
-  return { navigateToSecondScreen }
+  const href = navigator.historyManager.getHref(
+    navigator.getNavigationLink(navigatorKeys.Second.key),
+  )
+
+  return { secondScreen: { navigate, href } }
 }
 
 export default useMainNavigatorController

@@ -2,7 +2,7 @@
   "background_color": "#256113",
   "display": "standalone",
   "lang": "en",
-  "name": "RN Template",
+  "name": "rntemplate",
   "short_name": "rn_templ",
   "start_url": "/?utm_source=web_app_manifest",
   "theme_color": "#256113",
