@@ -1,6 +1,16 @@
 {
   "name": "rntemplate",
   "version": "1.0.0",
+  "author": "Eduardo Ramos <eduardo.carneiro2907@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/edu2907/rn-expo-ts-template",
+  "keywords": [
+    "react",
+    "react-native",
+    "expo",
+    "typescript",
+    "template"
+  ],
   "main": "index.js",
   "scripts": {
     "exp-env": "cross-env EXPO_NO_DOTENV=1 APP_ENV=development",
@@ -54,6 +64,5 @@
     "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3"
-  },
-  "private": true
+  }
 }
