@@ -8,6 +8,9 @@ node_modules/
 dist/
 web-build/
 
+# Ignore prebuild files
+android/
+
 # Native
 *.orig.*
 *.jks
@@ -30,11 +33,10 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env.development
+.env.preview
 
 # typescript
 *.tsbuildinfo
 
 credentials/
-
-.env.development
-.env.preview

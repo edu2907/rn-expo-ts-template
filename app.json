@@ -4,9 +4,27 @@
     "slug": "rntemplate",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/prebuild/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.rntemplate",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/prebuild/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
     "web": {
       "name": "rntemplate",
       "themeColor": "#256113"
-    }
+    },
+    "icon": "./assets/prebuild/images/icon.png",
+
+    "plugins": [
+      "./expo-plugin-android-material-you-bottom-bar",
+      ["./withAnimAssets.js", "./assets/prebuild/androidAssets/anim"]
+      ]
   }
 }
